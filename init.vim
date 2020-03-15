@@ -1,0 +1,1 @@
+/home/thedarkknight/.config/nvim/init.vim
