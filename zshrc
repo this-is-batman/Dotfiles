@@ -109,3 +109,4 @@ create() {
 alias update='sudo apt update'
 alias download_song='youtube-dl -x --audio-format mp3'
 alias goodnight='sudo poweroff'
+alias see_recent='find . -type f -mtime -5'
