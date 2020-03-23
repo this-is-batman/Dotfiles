@@ -110,3 +110,5 @@ alias update='sudo apt update'
 alias download_song='youtube-dl -x --audio-format mp3'
 alias goodnight='sudo poweroff'
 alias see_recent='find . -type f -mtime -5'
+alias mv="mv -iv"
+alias rm="rm -iv"
