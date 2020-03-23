@@ -1,12 +1,12 @@
 [global_config]
+  window_state = maximise
 [keybindings]
-    switch_to_tab_1 = <Ctrl>1
-    switch_to_tab_2 = <Ctrl>2
-    switch_to_tab_3 = <Ctrl>3
-    switch_to_tab_4 = <Ctrl>4
-    switch_to_tab_5 = <Ctrl>5
-    switch_to_tab_6 = <Ctrl>6
-
+  switch_to_tab_1 = <Ctrl>1
+  switch_to_tab_2 = <Ctrl>2
+  switch_to_tab_3 = <Ctrl>3
+  switch_to_tab_4 = <Ctrl>4
+  switch_to_tab_5 = <Ctrl>5
+  switch_to_tab_6 = <Ctrl>6
 [layouts]
   [[default]]
     [[[child1]]]
@@ -18,3 +18,7 @@
 [plugins]
 [profiles]
   [[default]]
+    background_darkness = 0.2
+    cursor_color = "#aaaaaa"
+    font = Fira Code 16
+    use_system_font = False
