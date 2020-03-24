@@ -113,3 +113,5 @@ alias goodnight='sudo poweroff'
 alias see_recent='find . -type f -mtime -5'
 alias mv="mv -iv"
 alias rm="rm -iv"
+alias ..="cd .."
+alias ...="cd ../.."
