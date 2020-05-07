@@ -72,7 +72,6 @@ colored-man-pages
 zsh-autosuggestions
 zsh-syntax-highlighting
 colorize
-vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh

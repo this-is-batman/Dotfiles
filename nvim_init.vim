@@ -3,7 +3,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end() 
 
-let g:airline_theme='luna'
+let g:airline_theme='serene'  
 
 filetype plugin indent on
 syntax on set number
