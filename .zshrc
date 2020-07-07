@@ -117,5 +117,5 @@ alias ...="cd ../.."
 alias sshstat='sudo systemctl status ssh'
 alias sshon='sudo systemctl start ssh'
 alias sshoff='sudo systemctl stop ssh'
-
+alias sl='ls'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
