@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h(\A)\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -115,10 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-#these are the commands for changing the bash prompt
-#PS1="\u@\H(\A):\w"
-PS1="\e[1;32m\u@\H(\A):\W\$ \e[0m"
 
 # these are the commands to help run CUDA
 export PATH=/usr/local/cuda-11.4/bin${PATH:+:${PATH}}
