@@ -116,23 +116,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#these are the commands for changing the bash prompt
+#PS1="\u@\H(\A):\w"
+PS1="\e[1;32m\u@\H(\A):\W\$ \e[0m"
 
-powerline-daemon -q
-POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
-. /usr/local/lib/python3.6/dist-packages/powerline/bindings/bash/powerline.sh
-# using alias for ease of use
-alias update='sudo apt update'
-#alias background='wal --vte -i'
-alias download_song='youtube-dl -x --audio-format mp3'
-alias goodnight='sudo poweroff'
+# these are the commands to help run CUDA
+export PATH=/usr/local/cuda-11.4/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-11.4/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export CUDA_HOME=/usr/local/cuda
 
-# my first bash function, just goes inside a newly created directory on writing create
-create() {
-    mkdir -p "$1" #take the first argument i.e. argv[1] which is "$1"
-    cd "$1" # enter into that directory
-}   
+# these are for cudnn
+export LD_LIBRARY_PATH=/home/abhigeek/cuda/lib64:$LD_LIBRARY_PATH
 
-
-
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
