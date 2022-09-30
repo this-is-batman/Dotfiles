@@ -124,3 +124,5 @@ export CUDA_HOME=/usr/local/cuda
 # these are for cudnn
 export LD_LIBRARY_PATH=/home/abhigeek/cuda/lib64:$LD_LIBRARY_PATH
 
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
