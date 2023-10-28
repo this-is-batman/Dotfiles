@@ -74,7 +74,7 @@ plugins=(git
 colored-man-pages
 colorize
 zsh-syntax-highlighting
-zsh-autosuggestions
+#zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,6 +104,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# here are a list of alias that I use throughout my system
+alias mv="mv -iv"
+alias rm="rm -iv"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
