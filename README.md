@@ -13,3 +13,13 @@ The `Brewfile` contains the applications and the command line dev tools which ha
 ```
 brew bundle dump --describe
 ```
+
+# Enabling and disabling tiling
+Tiling is important anytime you want to have multiple windows open on the screen at the same time, which helps in various applications such as coding, scientific research et cetera.
+
+If anytime you want to turn off tiling window manager which in this case is Yabai, you need to run the following command to stop the yabai service - 
+
+```
+yabai --stop-service
+```
+and to restart yabai you can use the command `yabai --start-service`. `man yabai` will givea good description about how to interact with yabai.
