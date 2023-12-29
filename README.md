@@ -23,3 +23,8 @@ If anytime you want to turn off tiling window manager which in this case is Yaba
 yabai --stop-service
 ```
 and to restart yabai you can use the command `yabai --start-service`. `man yabai` will givea good description about how to interact with yabai.
+
+# Quality of life changes
+
+### Using Macbook without power adapter
+You can use the macbook in clamshell mode without connecting to AC power adapter, by using the store app called `Amphetamine`. A good video explaining the same is [here](https://www.youtube.com/watch?v=lKWvxJNmSSw).
