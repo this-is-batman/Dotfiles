@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
+brew "fzf"
 brew "neofetch"
 brew "neovim"
 brew "wget"
